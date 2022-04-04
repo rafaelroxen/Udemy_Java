@@ -69,4 +69,16 @@ public Worker(){
     contracts.remove(contract);
  }
 
-}
+ public double income(int year, int month) {
+     double soma = baseSalary;
+     for (HourContract c : contracts) {
+         if (c.getDate().getYear() == year && c.getDate().getMonth() == month) {
+             soma += c.totalValue();
+         }
+     }
+     return soma;
+ }
+
+ }
+
+
