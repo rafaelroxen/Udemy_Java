@@ -1,6 +1,6 @@
 package application;
 
-import entities.Employee;
+import entities.enums.Employee;
 
 import java.util.ArrayList;
 import java.util.List;
