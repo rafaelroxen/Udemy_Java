@@ -55,4 +55,16 @@ public class Post {
     public void setLikes(Integer likes) {
         this.likes = likes;
     }
+
+    public List<Comment> getComments() {
+        return comments;
+    }
+
+    public void addComment (Comment comment){
+        comments.add(comment);
+    }
+
+    public void removeComment (Comment comment){
+        comments.remove(comment);
+    }
 }
