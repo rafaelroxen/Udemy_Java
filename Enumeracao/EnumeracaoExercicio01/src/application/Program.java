@@ -18,7 +18,7 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
         //O SimpleDateFormat serve para criar um objeto que aceita tipo data.
-        SimpleDateFormat sdf = new SimpleDateFormat("dd/mm/yyyy");
+        SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 
         System.out.print("Entre com o nome do departamento: ");
         String departamentName = sc.nextLine();
