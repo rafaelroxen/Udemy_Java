@@ -26,4 +26,9 @@ public class BusinessAccount extends Account {
             balance += amount;
         }
     }
+
+    @Override
+    public void withdraw(double amount) {
+        this.balance -= amount;
+    }
 }

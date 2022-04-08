@@ -37,7 +37,7 @@ public class Account {
 
     //Sacando um valor
     public void withdraw(double amount){
-        this.balance -=amount;
+        this.balance -=amount + 5.0;
     }
 
     //Depositando um valor
