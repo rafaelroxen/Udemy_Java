@@ -4,10 +4,20 @@ import entities.Account;
 import entities.BusinessAccount;
 import entities.SavingAccount;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Program {
 
     public static void main(String[] args) {
 
+
+        List<Account> list = new ArrayList<>();
+
+        list.add(new SavingAccount(1001,"alex",500.0,00.1));
+
+
+        /*
         Account acc = new Account(1001, "Alex", 0.0);
         BusinessAccount bacc = new BusinessAccount(1002, "Maria", 0.0, 500.0);
 
@@ -35,5 +45,7 @@ public class Program {
             acc5.updateBalance();
             System.out.println("Update!");
         }
+
+         */
     }
 }
